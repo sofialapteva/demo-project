@@ -1,10 +1,10 @@
-import { useState, useContext, useEffect, useCallback, useMemo, useRef } from "react";
-import classes from "./MainPage.module.scss";
+import { useTranslation } from "react-i18next";
 interface MainPageProps {
   className?: string;
 }
 const MainPage = ({ className }: MainPageProps) => {
-  return <div>MainPage</div>;
+  const { t } = useTranslation();
+  return <div>{t("Главная")}</div>;
 };
 
 export default MainPage;

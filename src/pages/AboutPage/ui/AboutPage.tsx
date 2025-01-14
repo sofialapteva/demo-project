@@ -1,10 +1,11 @@
-import { useState, useContext, useEffect, useCallback, useMemo, useRef } from "react";
-import classes from "./AboutPage.module.scss";
+import { useTranslation } from "react-i18next";
 interface AboutPageProps {
   className?: string;
 }
 const AboutPage = ({ className }: AboutPageProps) => {
-  return <div>AboutPage</div>;
+  const { t } = useTranslation("about");
+
+  return <div>{t("О сайте")}</div>;
 };
 
 export default AboutPage;
