@@ -10,7 +10,8 @@
     "build:prod": "webpack --env mode=production",
     "build:dev": "webpack --env mode=development",
     "lint:css": "npx stylelint **/*.scss",
-    "lint:css:fix": "npx stylelint **/*.scss --fix"
+    "lint:css:fix": "npx stylelint **/*.scss --fix",
+    "unit": "jest --config ./config/jest/jest.config.ts"
   },
   "author": "",
   "license": "ISC",
