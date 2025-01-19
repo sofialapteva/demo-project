@@ -1,7 +1,10 @@
 {
   "Hi": "",
+  "Reload the page": "Reload the page",
+  "throw error": "throw error",
   "Главная": "MainPage",
+  "Произошла непредвиденная ошибка": "Unexpected error has occured",
+  "Страница не найдена": "Page not found",
   "Тест": "Test",
-  "Язык": "English",
-  "Страница не найдена": "Page not found"
+  "Язык": "English"
 }

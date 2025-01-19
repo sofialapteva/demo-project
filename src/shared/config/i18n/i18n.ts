@@ -5,13 +5,13 @@ import Backend from 'i18next-http-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
 i18n
-    .use(Backend)
-    .use(LanguageDetector)
-    .use(initReactI18next)
-    .init({
-        fallbackLng: 'ru',
-        debug: JSON.parse(__IS_DEV__),
-        interpolation: {},
-    });
+  .use(Backend)
+  .use(LanguageDetector)
+  .use(initReactI18next)
+  .init({
+    fallbackLng: 'ru',
+    debug: JSON.parse(__IS_DEV__),
+    interpolation: {},
+  });
 
 export default i18n;

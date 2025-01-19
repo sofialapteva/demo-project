@@ -4,9 +4,9 @@ interface AboutPageProps {
   className?: string;
 }
 const AboutPage = ({ className }: AboutPageProps) => {
-    const { t } = useTranslation("about");
+  const { t } = useTranslation("about");
 
-    return <div className={className}>{t("О сайте")}</div>;
+  return <div className={className}>{t("О сайте")}</div>;
 };
 
 export default AboutPage;
